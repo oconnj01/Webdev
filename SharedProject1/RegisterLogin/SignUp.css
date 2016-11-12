@@ -64,9 +64,9 @@ body{
 
 .form-control{
     display: inline;
-    width: 40%;
+    width: 60%;
     position: relative;
-    left: 50px;
+    left: 70px;
 }
 
 label{
