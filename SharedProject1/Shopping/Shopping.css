@@ -1,0 +1,197 @@
+
+body{
+    /*background-color: darkcyan;*/
+    /*background: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet);*/
+	margin-top: 100px;
+	background-color: #009999;
+
+}
+
+.row{
+    padding: 10px; 
+}
+
+#topRow{
+    margin-top: 50px;
+    padding: 10px;
+}
+
+#bottomRow{
+    margin-bottom:100px;
+    padding: 5px;
+}
+
+.widget{
+	    border: 1px solid transparent;
+	    border-radius: 10px;
+	    text-align: center;
+
+        background: #ffffff; 
+	    		
+        margin-left: 5px;
+        margin-right: 5px; 
+        width: 20%;
+	    color: #ffffff;
+	 
+	    font-size: 12pt;
+}
+
+.img{
+    width: 100%;
+    height: 100%;
+}
+
+.container{
+      font-size: 14pt;
+       margin-top: 10px;
+}
+
+.tableContainer{
+      font-size: 14pt;       
+      
+}
+
+#layout{
+      margin-top: 50px;
+      margin-left: 75px;
+      margin-right: 75px;
+      margin-top: 10px;
+      padding-left: 125px;
+      padding-top: 5px;
+      padding-bottom: 10px;
+ 
+}
+
+#filterAndCart{
+    border: 1px solid #009999;
+    border-radius: 5px;
+    width: 85%;
+    margin-top: 100px;
+ 
+    padding: 10px;
+
+    background-color: #00cc99;
+
+}
+
+#filterElements{
+    display: inline;
+    margin: 5px;
+    padding: 5px;
+}
+
+#shoppingCart{
+    border: 1px sold transparent;
+    border-radius: 7px;
+    font-size: normal;
+    float: right;
+    margin-bottom: 10px;
+}
+
+.cartAdd{
+    background-color: black;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    float: right;
+}
+
+/*----------------------*/
+/*CSS for Navigation bar*/
+/*----------------------*/
+.navbar{
+	background-color: #1d1e1e;
+	border: 1px solid #000000;
+	min-height: 100px;
+	max-height: 500px;
+
+}
+
+.navbar-default .navbar-brand{
+	color: #ffffff;
+	font-size: 20pt;
+	border: 1px solid transparent;
+	border-radius: 10px;
+	padding: 5px;
+    padding-top: 10px;
+
+}
+
+.navbar-default .navbar-brand:hover{
+	color: #ffffff;
+    border: 1px solid lightblue;
+    border-radius: 10px;
+	padding: 5px;
+    padding-top: 10px;
+}
+
+.navbar-default .navbar-nav>li>a{
+	color: #FFFFFF;
+	border: 1px solid transparent;
+	border-radius: 10px;
+	padding: 10px;
+	margin: 5px;
+   
+}
+
+.navbar-default .navbar-nav>li>a:hover{
+	color: #000000;
+	background-color:#d4d6d8;
+	border: 1px solid transparent;
+	border-radius: 10px;
+	padding: 10px;
+	margin: 5px;
+    text-decoration: none;
+
+
+    -moz-transition:.3s;
+    -webkit-transition:.3s;
+    /* ...and now for the proper property */
+    transition:.3s;
+}
+
+.navbar-default .navbar-nav>.active>a{
+	color: #000000;
+	font-weight: bold;
+	background-color: #ffa319;
+	border: 1px solid transparent;
+	border-radius: 10px;
+	padding: 10px;
+	margin: 5px;
+    text-decoration: none;
+  
+}
+
+
+
+.signIn
+{
+	color: #FFFFFF;
+	border: 1px solid transparent;
+	border-radius: 10px;
+	padding: 10px;
+	margin: 5px;
+	margin-left: 40pt;
+}
+
+.signIn:hover
+{
+	color: #000000;
+	background-color:#d4d6d8;
+	border: 1px solid black;
+	border-radius: 10px;
+	padding: 10px;
+	margin: 5px;
+	margin-left: 40pt;
+	text-decoration: none;
+	
+-moz-transition:.3s;
+    -webkit-transition:.3s;
+    /* ...and now for the proper property */
+    transition:.3s;
+}
+
+
+.col-md-4
+{
+	border: transparent;
+}

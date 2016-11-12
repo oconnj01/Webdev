@@ -1,0 +1,132 @@
+﻿<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <title>Webdev Project</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="Shopping.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+
+                <a class="navbar-brand" href="Homepage.html">WebSiteName</a>
+            </div>
+
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+
+                <form class="navbar-form navbar-right">
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Search">
+                    </div>
+                    <button type="submit" class="btn btn-default"> <i class="fa fa-search" aria-hidden="true"></i> </button>
+                   <span><a  class="signIn" href="SignIn.html">Sign in</a></span>
+                </form>
+
+                <ul class="nav navbar-nav">
+                   <li><a href="Profile.html">Profile</a></li>
+                    <li><a href="Shopping.html">Shopping</a></li>
+                    <li><a href="About.html">About</a></li>
+                </ul>
+
+
+            </div>
+        </div>
+    </nav>
+
+    <div id="layout">
+        <div id="filterAndCart">
+            <label for="priceFilter">Price: </label> <br />
+            <div id="filterElements">
+                <select id="priceFilter">
+                    <option value="">$0-$10</option>
+                    <option value="">$11-$30</option>
+                    <option value="">$31-$50</option>
+                    <option value="">$51-$100</option>
+                </select>
+            </div>
+            <div id="filterElements">
+                <a href="ShoppingCart.html"><button id="shoppingCart">Shopping Cart <i class="fa fa-shopping-cart" aria-hidden="true"></i></button></a>
+            </div>
+
+        </div>
+
+        <div class="tableContainer">
+            <div class="row" id="topRow">
+                <div class="col-md-4 widget">
+                    <img src="ShopImages/shirt-34238_640.png" alt="Picture of mug with happy face" class="img"/>
+                    <button class="cartAdd"><i class="fa fa-shopping-cart" aria-hidden="true"></i> Add</button>
+                </div>
+                <div class="col-md-4 widget">
+                    <img src="ShopImages/t-shirt-150524_640.png" alt="Picture of mug with happy face" class="img"/>
+                    <button class="cartAdd"><i class="fa fa-shopping-cart" aria-hidden="true"></i> Add</button>				
+				</div>
+                <div class="col-md-4 widget">
+                    <img src="ShopImages/t-shirt-150525_640.png" alt="Picture of mug with happy face" class="img"/>
+                    <button class="cartAdd"><i class="fa fa-shopping-cart" aria-hidden="true"></i> Add</button>				
+				</div>
+                <div class="col-md-4 widget">
+                    <img src="ShopImages/t-shirt-150527_640.png" alt="Picture of mug with happy face" class="img"/>
+                    <button class="cartAdd"><i class="fa fa-shopping-cart" aria-hidden="true"></i> Add</button>				
+				</div>
+            </div>
+            <div class="row">
+                <div class="col-md-4 widget"><p class="content">Item</p></div>
+                <div class="col-md-4 widget"><p class="content">Item</p></div>
+                <div class="col-md-4 widget"><p class="content">Item</p></div>
+                <div class="col-md-4 widget"><p class="content">Item</p></div>
+            </div>
+            <div class="row">
+                <div class="col-md-4 widget"><p class="content">Item</p></div>
+                <div class="col-md-4 widget"><p class="content">Item</p></div>
+                <div class="col-md-4 widget"><p class="content">Item</p></div>
+                <div class="col-md-4 widget"><p class="content">Item</p></div>
+            </div>
+            <div class="row">
+                <div class="col-md-4 widget"><p class="content">Item</p></div>
+                <div class="col-md-4 widget"><p class="content">Item</p></div>
+                <div class="col-md-4 widget"><p class="content">Item</p></div>
+                <div class="col-md-4 widget"><p class="content">Item</p></div>
+            </div>
+            <div class="row">
+                <div class="col-md-4 widget"><p class="content">Item</p></div>
+                <div class="col-md-4 widget"><p class="content">Item</p></div>
+                <div class="col-md-4 widget"><p class="content">Item</p></div>
+                <div class="col-md-4 widget"><p class="content">Item</p></div>
+            </div>
+            <div class="row" id="bottomRow">
+                <div class="col-md-4 widget"><p class="content">Item</p></div>
+                <div class="col-md-4 widget"><p class="content">Item</p></div>
+                <div class="col-md-4 widget"><p class="content">Item</p></div>
+                <div class="col-md-4 widget"><p class="content">Item</p></div>
+            </div>
+
+        </div>
+    </div>
+    
+   
+
+
+
+
+    <!--<div id="happy">Div 1 </div>
+
+     <div id="sad"> div 2</div>
+
+    <div id="angry">div 3 </div>-->
+
+</body>
+</html>

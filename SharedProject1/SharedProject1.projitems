@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>5f0a841b-5079-47e4-8b96-a343e7c2fac9</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>SharedProject1</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Include="$(MSBuildThisFileDirectory)About.html" />
+    <Content Include="$(MSBuildThisFileDirectory)Bootstrap\css\bootstrap-theme.css" />
+    <Content Include="$(MSBuildThisFileDirectory)Bootstrap\css\bootstrap-theme.min.css" />
+    <Content Include="$(MSBuildThisFileDirectory)Bootstrap\css\bootstrap.css" />
+    <Content Include="$(MSBuildThisFileDirectory)Bootstrap\css\bootstrap.min.css" />
+    <Content Include="$(MSBuildThisFileDirectory)Bootstrap\fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="$(MSBuildThisFileDirectory)Bootstrap\fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="$(MSBuildThisFileDirectory)Bootstrap\fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="$(MSBuildThisFileDirectory)EmotionPagesHtml\Angry.html" />
+    <Content Include="$(MSBuildThisFileDirectory)EmotionPagesHtml\Emotions.css" />
+    <Content Include="$(MSBuildThisFileDirectory)EmotionPagesHtml\Happy.html" />
+    <Content Include="$(MSBuildThisFileDirectory)EmotionPagesHtml\Random.html" />
+    <Content Include="$(MSBuildThisFileDirectory)EmotionPagesHtml\Relaxed.html" />
+    <Content Include="$(MSBuildThisFileDirectory)EmotionPagesHtml\Sad.html" />
+    <Content Include="$(MSBuildThisFileDirectory)EmotionPagesHtml\Scared.html" />
+    <Content Include="$(MSBuildThisFileDirectory)Homepage.css" />
+    <Content Include="$(MSBuildThisFileDirectory)Homepage.html" />
+    <Content Include="$(MSBuildThisFileDirectory)Profile\Profile.css" />
+    <Content Include="$(MSBuildThisFileDirectory)Profile\Profile.html" />
+    <Content Include="$(MSBuildThisFileDirectory)PurpleOctopus.png" />
+    <Content Include="$(MSBuildThisFileDirectory)RegisterLogin\SignIn.css" />
+    <Content Include="$(MSBuildThisFileDirectory)RegisterLogin\SignIn.html" />
+    <Content Include="$(MSBuildThisFileDirectory)RegisterLogin\SignUp.css" />
+    <Content Include="$(MSBuildThisFileDirectory)RegisterLogin\SignUp.html" />
+    <Content Include="$(MSBuildThisFileDirectory)Shopping\ShopImages\shirt-34238_640.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Shopping\ShopImages\t-shirt-150524_640.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Shopping\ShopImages\t-shirt-150525_640.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Shopping\ShopImages\t-shirt-150527_640.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Shopping\Shopping.css" />
+    <Content Include="$(MSBuildThisFileDirectory)Shopping\Shopping.html" />
+    <Content Include="$(MSBuildThisFileDirectory)Shopping\ShoppingCart.html" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="$(MSBuildThisFileDirectory)Bootstrap\css\bootstrap-theme.css.map" />
+    <None Include="$(MSBuildThisFileDirectory)Bootstrap\css\bootstrap-theme.min.css.map" />
+    <None Include="$(MSBuildThisFileDirectory)Bootstrap\css\bootstrap.css.map" />
+    <None Include="$(MSBuildThisFileDirectory)Bootstrap\css\bootstrap.min.css.map" />
+    <None Include="$(MSBuildThisFileDirectory)Bootstrap\fonts\glyphicons-halflings-regular.svg" />
+    <None Include="$(MSBuildThisFileDirectory)Bootstrap\fonts\glyphicons-halflings-regular.woff2" />
+    <None Include="$(MSBuildThisFileDirectory)Bootstrap\js\bootstrap.js" />
+    <None Include="$(MSBuildThisFileDirectory)Bootstrap\js\bootstrap.min.js" />
+    <None Include="$(MSBuildThisFileDirectory)Bootstrap\js\npm.js" />
+    <None Include="$(MSBuildThisFileDirectory)JavaScript\SignUpIn.js" />
+  </ItemGroup>
+</Project>

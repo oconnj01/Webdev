@@ -1,0 +1,44 @@
+﻿<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <title>Webdev Project</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="http://webdev.cs.uwosh.edu/students/oconnj01/Labs/webdev_project/customCss/SignUp.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="JavaScript/SignUpIn.js" type="text/javascript"></script>
+</head>
+<body>
+    <form id="signUpForm">
+        <h1>Welcome to our website!</h1>
+        <div id="signUpDiv">
+            <a href="Homepage.html" class="btn btn-default" id="homepageButton">Back to Homepage</a> <br />
+            <div class="form-group">
+                <label for="fName">Name</label> <br />
+                <input type="text" class="form-control nameForm" id="fName" placeholder="First"/>        
+                <input type="text" class="form-control nameForm" id="lName" placeholder="Last" />
+            </div>
+            <div class="form-group">
+                <label for="userEmail">Email address</label> <br />
+                <input type="email" class="form-control" id="userEmail" placeholder="Email">
+            </div>
+            <div class="form-group">
+                <label for="createPassword">Password</label><br />
+                <input type="password" class="form-control" id="createPassword" placeholder="Password">
+            </div>
+            <div class="form-group">
+                <label for="confirmPassword">Confirm Password</label> <br />
+                <input type="password" class="form-control" id="confirmPassword" placeholder="Password">
+            </div>
+
+            <div>
+                <a href="Profile.html" class="btn btn-default" id="signUpButton">Sign Up</a>
+            </div>
+        </div>
+    </form>
+</body>
+</html>

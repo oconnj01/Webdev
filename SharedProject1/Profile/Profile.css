@@ -1,0 +1,242 @@
+﻿
+body{
+    /*background-color: darkcyan;*/
+    /*background: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet);*/
+	margin-top: 100px;
+	
+	background-color: #009999  ;
+}
+
+#profilePicture{
+    border: 1px solid transparent;
+    border-radius: 100px;   
+}
+
+.row{
+    margin-top: 50px;
+    margin-left: 5px;
+    margin-right: 5px;
+
+    padding: 10px;
+   
+}
+
+#bottomRow{
+    margin-bottom:100px;
+    padding: 10px;
+}
+
+#item{
+    background: #5900b3; 
+	background: -webkit-linear-gradient(to bottom left, #5900b3 , #00ffff); 
+	/*background: linear-gradient(to bottom left, #5900b3 , #00ffff); */
+		
+    background: radial-gradient(circle, #00ffff, #5900b3);
+
+     margin-left: 30px;
+     margin-right: 30px; 
+     padding-bottom: 15%;
+     width: 20%;
+	 color: #ffffff;
+	 
+	 font-size: 12pt;
+	 
+    -webkit-transition: .5s all;   
+    -webkit-transition-delay: .1s; 
+    -moz-transition: .5s all;   
+    -moz-transition-delay: .1s; 
+    transition: .5s all;   
+    transition-delay: .1s; 	 
+}
+
+#item:hover{
+     margin-left: 30px;
+     margin-right: 30px; 
+     padding-bottom: 20%;
+     width: 25%;
+
+    -webkit-transition-delay: 0s;
+    -moz-transition-delay: 0s;
+    transition-delay: 0s;
+}
+
+.widget{
+    box-shadow: 0px 0px 2px 3px #404040;
+
+	 border: 1px solid transparent;
+	 border-radius: 10px;
+	 text-align: center;
+
+     background: #5900b3; 
+	background: -webkit-linear-gradient(to bottom left, #5900b3 , #00ffff); 
+	/*background: linear-gradient(to bottom left, #5900b3 , #00ffff); */
+		
+    background: radial-gradient(circle, #00ffff, #5900b3);
+
+     margin-left: 30px;
+     margin-right: 30px; 
+     padding-bottom: 15%;
+     width: 20%;
+	 color: #ffffff;
+	 
+	 font-size: 12pt;
+	 
+    -webkit-transition: .5s all;   
+    -webkit-transition-delay: .1s; 
+    -moz-transition: .5s all;   
+    -moz-transition-delay: .1s; 
+    transition: .5s all;   
+    transition-delay: .1s; 	
+	 
+	 
+}
+
+.widget:hover{
+    /*[horizontal offset] [vertical offset] [blur radius] [optional spread radius] [color];*/
+    box-shadow: 0px 0px 7px 10px #303030;
+
+     margin-left: 30px;
+     margin-right: 30px; 
+     padding-bottom: 20%;
+     width: 25%;
+
+    -webkit-transition-delay: 0s;
+    -moz-transition-delay: 0s;
+    transition-delay: 0s;
+    
+}
+
+.center-block{
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+
+.container{
+    margin-top: 10px;
+    font-size: 14pt;
+}
+
+#tableContainer{
+    margin: 0 auto;
+    width: 1100px;
+    float: right;
+    
+}
+
+/*----------------------*/
+/*CSS for Navigation bar*/
+/*----------------------*/
+.navbar{
+	background-color: #1d1e1e;
+	border: 1px solid #000000;
+	min-height: 100px;
+	max-height: 500px;
+
+}
+
+.navbar-default .navbar-brand{
+	color: #ffffff;
+	font-size: 20pt;
+	 border: 1px solid transparent;
+    border-radius: 10px;
+    padding: 5px;
+	 padding-top: 10px;
+}
+
+.navbar-default .navbar-brand:hover{
+	color: #ffffff;
+    border: 1px solid lightblue;
+    border-radius: 5px;
+    padding: 5px;
+	 padding-top: 10px;
+}
+
+.navbar-default .navbar-nav>li>a{
+	color:#ffffff;
+	border: 1px solid transparent;
+	border-radius: 10px;
+	padding: 10px;
+	margin: 5px;
+}
+
+.navbar-default .navbar-nav>li>a:hover{
+	color: #000000;
+	background-color:#d4d6d8;
+	border: 1px solid black;
+	border-radius: 10px;
+	padding: 10px;
+	margin: 5px;
+
+    -moz-transition:.3s;
+    -webkit-transition:.3s;
+    /* ...and now for the proper property */
+    transition:.3s;
+}
+
+.navbar-default .navbar-nav>.active>a{
+	color: #000000;
+	font-weight: bold;
+	background-color: #ffa319;
+	border: 1px solid black;
+	border-radius: 10px;
+	padding: 10px;
+	margin: 5px;
+}
+
+
+
+.signIn
+{
+	color: #FFFFFF;
+	border: 1px solid transparent;
+	border-radius: 10px;
+	padding: 10px;
+	margin: 5px;
+	margin-left: 40pt;
+}
+
+.signIn:hover
+{
+	color: #000000;
+	background-color:#d4d6d8;
+	border: 1px solid black;
+	border-radius: 10px;
+	padding: 10px;
+	margin: 5px;
+	margin-left: 40pt;
+	text-decoration: none;
+	
+-moz-transition:.3s;
+    -webkit-transition:.3s;
+    /* ...and now for the proper property */
+    transition:.3s;
+}
+
+#item2
+{
+	   background: transparent; 
+	
+	/*background: linear-gradient(to bottom left, #5900b3 , #00ffff); */
+		
+
+     margin-left: 30px;
+     margin-right: 30px; 
+     padding-bottom: 15%;
+     width: 20%;
+	
+	 
+	 font-size: 12pt;
+	 
+    -webkit-transition: .5s all;   
+    -webkit-transition-delay: .1s; 
+    -moz-transition: .5s all;   
+    -moz-transition-delay: .1s; 
+    transition: .5s all;   
+    transition-delay: .1s; 	 
+}
+
+.col-md-4
+{
+	border: transparent;
+}

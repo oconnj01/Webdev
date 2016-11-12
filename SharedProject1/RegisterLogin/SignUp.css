@@ -1,0 +1,93 @@
+body{
+    background-color: #C8C8C8;
+
+    margin-bottom: 100px;
+    margin-top: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+#signUpForm{
+    background-color: #009999;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    padding: 20px;
+    width: 600px;
+    margin: 0 auto;
+    position: relative;
+    top: -70px;
+}
+
+#signUpDiv{
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: #ffffff;
+    
+}
+
+.btn{
+    margin-bottom: 5px;
+    margin-top: 5px;
+    margin-left: 10px;
+    padding: 5px;
+    background-color: #3c3c3c;
+    color: white;
+}
+
+#signUpButton{
+    float: right;
+    margin-right: 30px;
+    position: relative;
+    top: -50px;
+}
+
+#homepageButton{
+    float: right;
+    margin-right: 10px;
+    margin-bottom: 30px;
+}
+
+.btn:hover{
+    color: black;
+    text-decoration: none;
+}
+
+#fName, #lName{
+    width: 30%;
+}   
+
+.form-group{
+    margin: 5px;
+    padding: 5px;
+    
+}
+
+.form-control{
+    display: inline;
+    width: 40%;
+    position: relative;
+    left: 50px;
+}
+
+label{
+    position: relative;
+    left: 75px;
+}
+
+#birthDate{
+    font-size: large;
+    position: relative;
+    left: 50px;
+}
+
+#dateText{
+    width: 20%;
+}
+
+.form-group{
+    margin: 10px;
+    padding: 10px;
+}
+h1{
+    text-align: center;
+}
