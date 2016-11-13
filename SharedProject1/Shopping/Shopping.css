@@ -1,19 +1,14 @@
 
 body{
-    /*background-color: darkcyan;*/
-    /*background: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet);*/
 	margin-top: 100px;
+    margin-bottom:0px;
+    margin-left:0px;
+    margin-right:0px;
 	background-color: #009999;
-
-}
-
-.row{
-    padding: 10px; 
 }
 
 #topRow{
     margin-top: 50px;
-    padding: 10px;
 }
 
 #bottomRow{
@@ -25,8 +20,6 @@ body{
 	    border: 1px solid transparent;
 	    border-radius: 10px;
 	    text-align: center;
-
-        background: #ffffff; 
 	    		
         margin-left: 5px;
         margin-right: 5px; 
@@ -37,8 +30,27 @@ body{
 }
 
 .img{
-    width: 100%;
-    height: 100%;
+    width: 128px;
+    height: 128px;
+    border: 1px solid transparent;
+    border-radius: 10px;
+}
+
+.thumbnail{
+    background-color: #009999;
+    border: none;
+    text-align:center;
+}
+
+.thumbnail>span{
+    font-size: 18pt;
+}
+
+.thumbnail>button{
+    position: relative;
+    right: 70px;
+    margin-top: 5px;
+    background-color: white;
 }
 
 .container{
@@ -46,10 +58,6 @@ body{
        margin-top: 10px;
 }
 
-.tableContainer{
-      font-size: 14pt;       
-      
-}
 
 #layout{
       margin-top: 50px;
@@ -61,6 +69,25 @@ body{
       padding-bottom: 10px;
  
 }
+
+
+
+/*#region Cart/Checkout page*/
+#shoppingCart{
+    margin-top: 100px;
+}
+/*#endregion*/
+
+/*#region Shopping page*/
+.cartAdd{
+    background-color: black;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    float: right;
+}
+/*#endregion*/
+
+/*#region Filter*/
 
 #filterAndCart{
     border: 1px solid #009999;
@@ -80,24 +107,11 @@ body{
     padding: 5px;
 }
 
-#shoppingCart{
-    border: 1px sold transparent;
-    border-radius: 7px;
-    font-size: normal;
-    float: right;
-    margin-bottom: 10px;
-}
+/*#endregion*/
 
-.cartAdd{
-    background-color: black;
-    border: 1px solid transparent;
-    border-radius: 10px;
-    float: right;
-}
+/*#region Navigation bar*/
 
-/*----------------------*/
-/*CSS for Navigation bar*/
-/*----------------------*/
+
 .navbar{
 	background-color: #1d1e1e;
 	border: 1px solid #000000;
@@ -189,9 +203,5 @@ body{
     /* ...and now for the proper property */
     transition:.3s;
 }
+/*#endregion*/
 
-
-.col-md-4
-{
-	border: transparent;
-}
