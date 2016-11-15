@@ -50,21 +50,30 @@
     <div id="layout">
         <div id="filterAndCart">
             <label for="priceFilter">Price: </label> <br />
-            <div id="filterElements">
-                <select id="priceFilter">
-                    <option value="">$0-$10</option>
-                    <option value="">$11-$30</option>
-                    <option value="">$31-$50</option>
-                    <option value="">$51-$100</option>
-                </select>
+            <div class="btn-group" id="priceFilter">
+                <a href="#" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+                    Dropdown
+                    <span class="caret"></span>
+                </a>
+                <ul class="dropdown-menu">
+                    <li><a href="#">$7.00</a></li>
+                    <li><a href="#">$10.00</a></li>
+                    <li><a href="#">$15.00</a></li>
+                    <li><a href="#">$20.00</a></li>
+                    <li><a href="#">$30.00</a></li>
+                    <li><a href="#">$50.00</a></li>
+                </ul>
             </div>
             <div id="filterElements">
-                <a href="ShoppingCart.html"><button id="shoppingCartButton">Shopping Cart <i class="fa fa-shopping-cart" aria-hidden="true"></i></button></a>
+                <!--<a href="ShoppingCart.html"><button id="shoppingCartButton">Shopping Cart <i class="fa fa-shopping-cart" aria-hidden="true"></i></button></a>-->
+                <a href="ShoppingCart.html" class="btn btn-primary btn-sm glyphicon glyphicon-shopping-cart">   Shopping Cart</a>
             </div>
+
+            
         </div>
        </div>
 
-    <div class="container-fluid table">
+    <div class="container-fluid ">
         <div class="row" id="topRow">
 
             <div class="col-sm-12 col-xs-12 col-md-4 col-lg-3">

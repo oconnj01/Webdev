@@ -1,6 +1,6 @@
 
 body{
-	margin-top: 100px;
+	margin-top: 50px;
     margin-bottom:0px;
     margin-left:0px;
     margin-right:0px;
@@ -73,7 +73,18 @@ body{
 
 
 /*#region Cart/Checkout page*/
-#shoppingCart{
+.table{
+    color: white;
+    background-color: #333333;
+    border: 5px solid black;
+    border-collapse: collapse;
+}
+
+tr:hover{
+    color: darkblue;
+}
+
+.shoppingCart{
     margin-top: 100px;
 }
 /*#endregion*/
@@ -85,12 +96,17 @@ body{
     border-radius: 10px;
     float: right;
 }
+
+.btn-primary{
+    font-size: 12pt;
+    float: right;
+}
 /*#endregion*/
 
 /*#region Filter*/
 
 #filterAndCart{
-    border: 1px solid #009999;
+    border: 5px solid #141414;
     border-radius: 5px;
     width: 85%;
     margin-top: 100px;
@@ -98,7 +114,6 @@ body{
     padding: 10px;
 
     background-color: #00cc99;
-
 }
 
 #filterElements{
