@@ -34,6 +34,7 @@
     <Content Include="$(MSBuildThisFileDirectory)PurpleOctopus.png" />
     <Content Include="$(MSBuildThisFileDirectory)RegisterLogin\SignIn.css" />
     <Content Include="$(MSBuildThisFileDirectory)RegisterLogin\SignIn.html" />
+    <Content Include="$(MSBuildThisFileDirectory)RegisterLogin\SignUp2.html" />
     <Content Include="$(MSBuildThisFileDirectory)RegisterLogin\SignUp.css" />
     <Content Include="$(MSBuildThisFileDirectory)RegisterLogin\SignUp.html" />
     <Content Include="$(MSBuildThisFileDirectory)Shopping\ShopImages\bluemug1.jpg" />

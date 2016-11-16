@@ -1,22 +1,41 @@
 
 
 /*#region check valid inputs*/
-.errorBackground{
-    background-color: darkred;
-    color: white;
+.redBackground{
+    background-color: indianred;
+    color: black;
 }
-.goodBackground{
-    background-color: green;
+.greenBackground{
+    background-color: limegreen;
+    color: black;
+}
+
+.whiteBackground{
+    background-color: white;
     color: black;
 }
 /*#endregion*/
 
 body{
     background-color: #C8C8C8;
-    margin-bottom: 100px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: auto;
+    margin-right: auto;
     margin-top: 100px;
-    margin-left: 400px;
-    margin-right: 200px;
+}
+
+input[type=text], input[type=email], input[type=password]{ 
+    font-size: 14pt;
+    border: 2px solid #C8C8C8;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 2px;
+}
+
+input[type=text], input[type=email], input[type=password]:focus{
+    outline-width: 0;
 }
 
 #signInDiv{
@@ -60,12 +79,16 @@ body{
 #signUpButton{
     float: right;
     margin-right: 30px;
+    margin-bottom: 10px;
+    border: none;
+    font-size: 14pt;
 }
 
 #homepageButton{
     float: right;
     margin-right: 10px;
     margin-bottom: 30px;
+    text-decoration: none;
 }
 
 h1{
