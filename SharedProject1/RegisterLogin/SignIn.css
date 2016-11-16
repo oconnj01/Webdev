@@ -1,3 +1,16 @@
+
+
+/*#region check valid inputs*/
+.errorBackground{
+    background-color: darkred;
+    color: white;
+}
+.goodBackground{
+    background-color: green;
+    color: black;
+}
+/*#endregion*/
+
 body{
     background-color: #C8C8C8;
     margin-bottom: 100px;
