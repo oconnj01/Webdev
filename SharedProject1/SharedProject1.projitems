@@ -9,6 +9,8 @@
     <Import_RootNamespace>SharedProject1</Import_RootNamespace>
   </PropertyGroup>
   <ItemGroup>
+    <Content Include="$(MSBuildThisFileDirectory)About.css" />
+    <Content Include="$(MSBuildThisFileDirectory)About.html" />
     <Content Include="$(MSBuildThisFileDirectory)Bootstrap\css\bootstrap-theme.css" />
     <Content Include="$(MSBuildThisFileDirectory)Bootstrap\css\bootstrap-theme.min.css" />
     <Content Include="$(MSBuildThisFileDirectory)Bootstrap\css\bootstrap.css" />
