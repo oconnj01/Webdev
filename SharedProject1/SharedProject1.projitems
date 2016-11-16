@@ -53,4 +53,7 @@
     <None Include="$(MSBuildThisFileDirectory)Bootstrap\js\npm.js" />
     <None Include="$(MSBuildThisFileDirectory)JavaScript\SignUpIn.js" />
   </ItemGroup>
+  <ItemGroup>
+    <Folder Include="$(MSBuildThisFileDirectory)EmotionPagesHtml\Images\" />
+  </ItemGroup>
 </Project>
