@@ -33,10 +33,26 @@
     <Content Include="$(MSBuildThisFileDirectory)RegisterLogin\SignIn.html" />
     <Content Include="$(MSBuildThisFileDirectory)RegisterLogin\SignUp.css" />
     <Content Include="$(MSBuildThisFileDirectory)RegisterLogin\SignUp.html" />
+    <Content Include="$(MSBuildThisFileDirectory)Shopping\ShopImages\bluemug1.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)Shopping\ShopImages\greenmug1.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)Shopping\ShopImages\orangemug1.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)Shopping\ShopImages\purplemug1.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)Shopping\ShopImages\redmug1.jpg" />
     <Content Include="$(MSBuildThisFileDirectory)Shopping\ShopImages\shirt-34238_640.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Shopping\ShopImages\shirt1_blue.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)Shopping\ShopImages\shirt1_green.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)Shopping\ShopImages\shirt1_orange.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)Shopping\ShopImages\shirt1_red.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)Shopping\ShopImages\shirt1_yellow.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)Shopping\ShopImages\shirt2_blue.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)Shopping\ShopImages\shirt2_green.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)Shopping\ShopImages\shirt2_purple.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)Shopping\ShopImages\shirt2_red.jpg" />
     <Content Include="$(MSBuildThisFileDirectory)Shopping\ShopImages\t-shirt-150524_640.png" />
     <Content Include="$(MSBuildThisFileDirectory)Shopping\ShopImages\t-shirt-150525_640.png" />
     <Content Include="$(MSBuildThisFileDirectory)Shopping\ShopImages\t-shirt-150527_640.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Shopping\ShopImages\UseShirt.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)Shopping\ShopImages\yellowmug1.jpg" />
     <Content Include="$(MSBuildThisFileDirectory)Shopping\Shopping.css" />
     <Content Include="$(MSBuildThisFileDirectory)Shopping\Shopping.html" />
     <Content Include="$(MSBuildThisFileDirectory)Shopping\ShoppingCart.html" />
@@ -52,6 +68,7 @@
     <None Include="$(MSBuildThisFileDirectory)Bootstrap\js\bootstrap.min.js" />
     <None Include="$(MSBuildThisFileDirectory)Bootstrap\js\npm.js" />
     <None Include="$(MSBuildThisFileDirectory)JavaScript\SignUpIn.js" />
+    <None Include="$(MSBuildThisFileDirectory)RegisterLogin\userVerifiedPage.php" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="$(MSBuildThisFileDirectory)EmotionPagesHtml\Images\" />
