@@ -73,4 +73,7 @@
     <None Include="$(MSBuildThisFileDirectory)RegisterLogin\SignUpIn.js" />
     <None Include="$(MSBuildThisFileDirectory)RegisterLogin\userVerifiedPage.php" />
   </ItemGroup>
+  <ItemGroup>
+    <Folder Include="$(MSBuildThisFileDirectory)EmotionPagesHtml\Images\" />
+  </ItemGroup>
 </Project>
