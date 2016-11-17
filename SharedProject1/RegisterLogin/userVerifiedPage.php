@@ -16,13 +16,15 @@
 	<?php
 		function main()
 		{
-			$username = $_POST['username'];
-			$password = $_POST['password'];
-			$email = $_POST['email'];
+			$username = $_POST["username"];
+			$password = $_POST["password"];
+			$email = $_POST["email"];			
 			
 			$db = new PDO("mysql:dbname=salina99; host=localhost","salina99","Oshdatabase11");		
+
+			$email = $db->quote($email); 
 			
-			$values = $db->query("SELECT Username, Email, Password FROM Users WHERE Email='$email'");
+			$values = $db->query("SELECT Username, Email, Password FROM webUser WHERE Email='$email'");
 			
 			if($values == null)
 			{
