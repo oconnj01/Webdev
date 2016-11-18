@@ -34,8 +34,8 @@
 			{
 				?>
 					<p><?=$value["Email"]?> already has an account associated with it</p>
-					<form action="SignIn.html">
-						<input type="submit" value="Go To Sign In Page" />
+					<form action="SignUp.html">
+						<input type="submit" value="Go Back To Sign Up Page" />
 					</form>
 				<?php
 
