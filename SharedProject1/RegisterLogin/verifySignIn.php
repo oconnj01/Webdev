@@ -31,7 +31,9 @@
 			{
 				if($password == $value["Password"])
 				{
-					echo("go to profile?");
+					?>
+						<a href="http://webdev.cs.uwosh.edu/students/salina99/Project/SharedProject1/Profile/Profile.html">Go To Your Profile</a>
+					<?php
 				}
 				else
 				{
