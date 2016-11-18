@@ -15,38 +15,36 @@
 <body>
 	<?php
 		function main()
-		{
+		{		
+			$exists = false;
+				
+			$email = $_POST["email"];
 			$username = $_POST["username"];
 			$password = $_POST["password"];
-			$email = $_POST["email"];			
-			
-			$db = new PDO("mysql:dbname=salina99; host=localhost","salina99","Oshdatabase11");		
 
-			$email = $db->quote($email); 
+			$db = new PDO("mysql:dbname=salina99;host=localhost", "salina99", "Oshdatabase11");	
+
+			$email = $db->quote($email);
+			$username = $db->quote($username); 
+			$password = $db->quote($password);
 			
-			$values = $db->query("SELECT Username, Email, Password FROM webUser WHERE Email='$email'");
-			
-			if($values == null)
+			$userValues = $db->query("SELECT Email FROM WebUser WHERE Email=$email");
+
+			foreach($userValues as $value)
 			{
-				print("Null");
-				//create button back to sign up page
-			}
-			else
+				?>
+				<p><?=$value["Email"]?> already has an account associated with it</p>
+				<input type="button" name="signInButton" id="signInButton" value="Go To Sign In Page">
+				<?php
+				$exists = true; 
+			}	
+
+			if($exists == false)
 			{
-				foreach($values as $row)
-				{
-					
-					print($row["Email"]);
-				
-					//query here to insert new user
-					//then create go to profile button
-
-				}
-			}
-
+				$db->query("INSERT INTO WebUser VALUES('',$username,$password,$email)");
+			}						
 		}
-		main();
-		
+		main();		
 	?>
 </body>
 </html>
