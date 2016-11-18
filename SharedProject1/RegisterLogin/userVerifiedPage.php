@@ -33,9 +33,12 @@
 			foreach($userValues as $value)
 			{
 				?>
-				<p><?=$value["Email"]?> already has an account associated with it</p>
-				<input type="button" name="signInButton" id="signInButton" value="Go To Sign In Page">
+					<p><?=$value["Email"]?> already has an account associated with it</p>
+					<form action="SignIn.html">
+						<input type="submit" value="Go To Sign In Page" />
+					</form>
 				<?php
+
 				$exists = true; 
 			}	
 
