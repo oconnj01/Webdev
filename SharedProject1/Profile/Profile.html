@@ -45,6 +45,17 @@
     </nav>
 
     <div id="tableContainer">
+        <div>
+            <form id="uploadimage" action="" method="post" enctype="multipart/form-data">
+                <div id="image_preview"><img id="previewing" src="noimage.png" /></div>
+                <hr id="line">
+                <div id="selectImage">
+                    <label>Select Your Image</label><br />
+                    <input type="file" name="file" id="file" required />
+                    <input type="submit" value="Upload" class="submit" />
+                </div>
+            </form>
+        </div>
    	 <div class="row">
    	  	    <button class="col-md-4 " id="item2"></button>
     		 <button class="col-md-4 widget" id="profilePicture">Profile Picture</button>
@@ -62,9 +73,9 @@
         </div>
     </div>
 
-    <p>
+    <div>
         <a href="http://validator.w3.org/check/referer">Validate Me</a>
-    </p>
+    </div>
 
 </body>
 </html>

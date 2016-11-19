@@ -73,6 +73,7 @@
     <None Include="$(MSBuildThisFileDirectory)Bootstrap\js\npm.js" />
     <None Include="$(MSBuildThisFileDirectory)JavaScript\jquery-3.1.1.min.js" />
     <None Include="$(MSBuildThisFileDirectory)JavaScript\SignUpIn.js" />
+    <None Include="$(MSBuildThisFileDirectory)Profile\ImageUpload.js" />
     <None Include="$(MSBuildThisFileDirectory)Profile\upload.php" />
     <None Include="$(MSBuildThisFileDirectory)RegisterLogin\userVerifiedPage.php" />
   </ItemGroup>
