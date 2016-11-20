@@ -45,6 +45,11 @@
 			if($exists == false)
 			{
 				$db->query("INSERT INTO WebUser VALUES('',$username,$password,$email)");
+				?>
+					<form action="http://webdev.cs.uwosh.edu/students/salina99/Project/SharedProject1/Profile/Profile.html">
+						<input type="submit" value="Go To Your Profile" />
+					</form>
+				<?php
 			}						
 		}
 		main();		
