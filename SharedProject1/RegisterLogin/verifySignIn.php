@@ -35,7 +35,6 @@
 						<form action="http://webdev.cs.uwosh.edu/students/salina99/Project/SharedProject1/Profile/Profile.html">
 							<input type="submit" value="Go To Your Profile" />
 						</form>
-						,!--<a href="http://webdev.cs.uwosh.edu/students/salina99/Project/SharedProject1/Profile/Profile.html">Go To Your Profile</a>-->
 					<?php
 				}
 				else
