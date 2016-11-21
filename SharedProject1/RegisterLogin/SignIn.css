@@ -53,7 +53,7 @@ input[type=text], input[type=email], input[type=password]:focus{
     width: 600px;
     margin: 0 auto;
     position: relative;
-    left: -80px;
+    left: -70px;
 }
 
 .form-group{
@@ -76,12 +76,22 @@ input[type=text], input[type=email], input[type=password]:focus{
 }
 
 
-#signUpButton{
-    float: right;
+#signInButton{
+    
     margin-right: 30px;
     margin-bottom: 10px;
     border: none;
     font-size: 14pt;
+}
+
+#signUpButton{
+    float: right;
+    margin-right: 30px;
+    
+	margin-bottom: 10px;
+    border: none;
+	font-size: 14pt;
+	
 }
 
 #homepageButton{
