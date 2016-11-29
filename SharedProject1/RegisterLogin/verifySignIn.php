@@ -1,3 +1,7 @@
+<?php
+	session_start(); 
+?>
+
 <!DOCTYPE html>
 
 <html lang="en">
@@ -15,7 +19,8 @@
 <body>
 	<?php
 		function main()
-		{		
+		{	
+
 			$exists = false;
 
 			$email = $_POST["email"];
@@ -31,8 +36,9 @@
 			{
 				if($password == $value["Password"])
 				{
+						$_SESSION["email"] = $email;   
 					?>
-						<form action="http://webdev.cs.uwosh.edu/students/salina99/Project/SharedProject1/Profile/Profile.html">
+						<form action="http://webdev.cs.uwosh.edu/students/salina99/Project/SharedProject1/Profile/Profile.php">
 							<input type="submit" value="Go To Your Profile" />
 						</form>
 					<?php

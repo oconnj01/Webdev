@@ -29,7 +29,7 @@
     <Content Include="$(MSBuildThisFileDirectory)Homepage.html" />
     <Content Include="$(MSBuildThisFileDirectory)Profile\htmlForm.html" />
     <Content Include="$(MSBuildThisFileDirectory)Profile\Profile.css" />
-    <Content Include="$(MSBuildThisFileDirectory)Profile\Profile.html" />
+    <Content Include="$(MSBuildThisFileDirectory)Profile\Profile.php" />
     <Content Include="$(MSBuildThisFileDirectory)Profile\uploads\cat.jpg" />
     <Content Include="$(MSBuildThisFileDirectory)PurpleOctopus.png" />
     <Content Include="$(MSBuildThisFileDirectory)RegisterLogin\SignIn.css" />
@@ -37,6 +37,7 @@
     <Content Include="$(MSBuildThisFileDirectory)RegisterLogin\SignUp2.html" />
     <Content Include="$(MSBuildThisFileDirectory)RegisterLogin\SignUp.css" />
     <Content Include="$(MSBuildThisFileDirectory)RegisterLogin\SignUp.html" />
+    <Content Include="$(MSBuildThisFileDirectory)RegisterLogin\login_session.php" />
     <Content Include="$(MSBuildThisFileDirectory)Shopping\ShopImages\bluemug1.jpg" />
     <Content Include="$(MSBuildThisFileDirectory)Shopping\ShopImages\greenmug1.jpg" />
     <Content Include="$(MSBuildThisFileDirectory)Shopping\ShopImages\orangemug1.jpg" />
