@@ -15,21 +15,11 @@
 </head>
 <body>
     <?php
-	    $db = new PDO("mysql:dbname=salina99;host=localhost", "salina99", "Oshdatabase11");
+    main(); 
 
-	    session_start();// Starting Session
+    function main(){
 
-	    // Storing Session
-	    $email=$_SESSION["email"];
-
-	    // SQL Query To Fetch Complete Information Of User
-	    $usernames = $db->query("SELECT Username FROM WebUser WHERE Email=$email");
-	
-	    $user = "";
-	    foreach($usernames as $username){
-		    $user = $username["Username"];
-	    }
-
+        include("../RegisterLogin/login_session.php");
     ?>
     <nav class="navbar navbar-default navbar-fixed-top">
         <div class="container">
@@ -64,6 +54,9 @@
             </div>
         </div>
     </nav>
+    <?php
+    }
+    ?>
 
     <div id="tableContainer">
         <div>
