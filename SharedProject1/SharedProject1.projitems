@@ -38,6 +38,8 @@
     <Content Include="$(MSBuildThisFileDirectory)RegisterLogin\SignUp.css" />
     <Content Include="$(MSBuildThisFileDirectory)RegisterLogin\SignUp.html" />
     <Content Include="$(MSBuildThisFileDirectory)RegisterLogin\login_session.php" />
+    <Content Include="$(MSBuildThisFileDirectory)RegisterLogin\SignOut.php" />
+    <Content Include="$(MSBuildThisFileDirectory)RegisterLogin\SignOut.css" />
     <Content Include="$(MSBuildThisFileDirectory)Shopping\ShopImages\bluemug1.jpg" />
     <Content Include="$(MSBuildThisFileDirectory)Shopping\ShopImages\greenmug1.jpg" />
     <Content Include="$(MSBuildThisFileDirectory)Shopping\ShopImages\orangemug1.jpg" />

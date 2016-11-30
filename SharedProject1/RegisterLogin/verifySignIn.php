@@ -37,10 +37,9 @@
 				if($password == $value["Password"])
 				{
 						$_SESSION["email"] = $email;   
+						header("Location: http://webdev.cs.uwosh.edu/students/salina99/Project/SharedProject1/Profile/Profile.php"); // Redirecting To Profile Page
 					?>
-						<form action="http://webdev.cs.uwosh.edu/students/salina99/Project/SharedProject1/Profile/Profile.php">
-							<input type="submit" value="Go To Your Profile" />
-						</form>
+						
 					<?php
 				}
 				else

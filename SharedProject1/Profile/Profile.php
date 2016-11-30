@@ -20,6 +20,7 @@
     function main(){
 
         include("../RegisterLogin/login_session.php");
+        $_SESSION["username"] = $user; 
     ?>
     <nav class="navbar navbar-default navbar-fixed-top">
         <div class="container">
@@ -39,11 +40,21 @@
 
                 <form class="navbar-form navbar-right">
                     <div class="form-group">
-                        <!--<input type="text" class="form-control" placeholder="Search">-->
-                        <input type="text" class="form-control" placeholder=<?= $user; ?>>
+                        <input type="text" class="form-control" placeholder="Search">
                     </div>
                     <button type="submit" class="btn btn-default glyphicon glyphicon-search"> </button>
-                   <span><a  class="signIn" href="../RegisterLogin/SignIn.html">Sign in</a></span>
+                    <?php
+                        if(isset($_SESSION['login_user'])){
+                    ?>
+                            <span><a  class="signIn" href="../RegisterLogin/SignIn.html">Sign in</a></span>
+                    <?php
+                        }
+                        else{
+                    ?>
+                            <span><a class="signOut" href="../RegisterLogin/SignOut.php">Sign out</a></span>
+                    <?php
+                        }
+                    ?>
                 </form>
 
                 <ul class="nav navbar-nav">
