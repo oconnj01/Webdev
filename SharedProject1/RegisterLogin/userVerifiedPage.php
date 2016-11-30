@@ -1,3 +1,7 @@
+<?php
+	session_start(); 
+?>
+
 <!DOCTYPE html>
 
 <html lang="en">
@@ -46,9 +50,8 @@
 			{
 				$db->query("INSERT INTO WebUser VALUES('',$username,$password,$email)");
 				$_SESSION["email"] = $email;   
-				?>					
-					header("Location: http://webdev.cs.uwosh.edu/students/salina99/Project/SharedProject1/Profile/Profile.php"); // Redirecting To Profile Page
-				<?php
+								
+				header("Location: http://webdev.cs.uwosh.edu/students/salina99/Project/SharedProject1/Profile/Profile.php"); // Redirecting To Profile Page				
 			}						
 		}
 		main();		
