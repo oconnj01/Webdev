@@ -5,13 +5,12 @@
     <title>Webdev Project</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="../Bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="Emotions.css">
-    <script src="../Bootstrap/js/bootstrap.min.js"></script>
-    <script src="../Bootstrap/js/bootstrap.min.js"></script>
-    <link rel="shortcut icon" href="../PurpleOctopus.png">
+    <link rel="stylesheet" href="Bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="Homepage.css">
+    <script src="Bootstrap/js/bootstrap.min.js"></script>
+    <link rel="shortcut icon" href="PurpleOctopus.png">
 </head>
-<body id="relaxedColor">
+<body>
     <nav class="navbar navbar-default navbar-fixed-top">
         <div class="container">
             <div class="navbar-header">
@@ -23,7 +22,7 @@
                     <span class="icon-bar"></span>
                 </button>
 
-                <a class="navbar-brand" href="../Homepage.html">WebSiteName</a>
+                <a class="navbar-brand" href="Homepage.php">WebSiteName</a>
             </div>
 
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -33,30 +32,31 @@
                         <input type="text" class="form-control" placeholder="Search">
                     </div>
                     <button type="submit" class="btn btn-default glyphicon glyphicon-search"> </button>
-                    <span><a class="signIn" href="../RegisterLogin/SignIn.html">Sign in</a></span>
+                    <span><a class="signIn" href="RegisterLogin/SignIn.html">Sign in</a></span>
                 </form>
 
                 <ul class="nav navbar-nav">
-                    <li><a href="../Profile/Profile.php">Profile</a></li>
-                    <li><a href="../Shopping/Shopping.html">Shopping</a></li>
-                    <li><a href="../About.html">About</a></li>
+                    <li><a href="http://webdev.cs.uwosh.edu/students/salina99/Project/SharedProject1/Profile/Profile.php">Profile</a></li>
+                    <li><a href="Shopping/Shopping.html">Shopping</a></li>
+                    <li><a href="About.html">About</a></li>
                 </ul>
             </div>
         </div>
     </nav>
     <div class="row">
-        <h1>Relaxed</h1>
+        <h1>Homepage</h1>
         <div id="tableContainer">
             <div class="row">
-                <button class="col-md-4 widget" id="item"><p class="content">picture</p></button>
-                <button class="col-md-4 widget" id="item"><p class="content">meme</p></button>
-                <button class="col-md-4 widget" id="item"><p class="content">video</p></button>
+                <a href="EmotionPagesHtml/Happy.php"><button class="col-md-4 widget" id="yellow">Happy</button></a>
+                <a href="EmotionPagesHtml/Sad.php"><button class="col-md-4 widget" id="blue">Sad</button></a>
+                <a href="EmotionPagesHtml/Angry.php"><button class="col-md-4 widget" id="red">Angry</button></a>
             </div>
             <div class="row" id="bottomRow">
-                <button class="col-md-4 widget" id="item"><p class="content">picture</p></button>
-                <button class="col-md-4 widget" id="item"><p class="content">video</p></button>
-                <button class="col-md-4 widget" id="item"><p class="content">meme</p></button>
+                <a href="EmotionPagesHtml/Relaxed.php"><button class="col-md-4 widget" id="green">Relaxed</button></a>
+                <a href="EmotionPagesHtml/Scared.php"><button class="col-md-4 widget" id="orange">Scared</button></a>
+                <a href="EmotionPagesHtml/Random.php"><button class="col-md-4 widget" id="purple">Random</button></a>
             </div>
+            
         </div>
     </div>
 

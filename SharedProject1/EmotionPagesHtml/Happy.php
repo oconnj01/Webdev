@@ -8,10 +8,9 @@
     <link rel="stylesheet" href="../Bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="Emotions.css">
     <script src="../Bootstrap/js/bootstrap.min.js"></script>
-    <script src="../Bootstrap/js/bootstrap.min.js"></script>
     <link rel="shortcut icon" href="../PurpleOctopus.png">
 </head>
-<body id="angryColor">
+<body id="happyColor">
     <nav class="navbar navbar-default navbar-fixed-top">
         <div class="container">
             <div class="navbar-header">
@@ -23,7 +22,7 @@
                     <span class="icon-bar"></span>
                 </button>
 
-                <a class="navbar-brand" href="../Homepage.php">WebSiteName</a>
+                <a class="navbar-brand" href="../Homepage.html">WebSiteName</a>
             </div>
 
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -56,7 +55,7 @@
         </div>
     </nav>
     <div class="row">
-        <h1 id="angryHeader">Angry</h1>
+        <h1>Happy</h1>
         <div id="tableContainer">
             <div class="row">
                 <button class="col-md-4 widget" id="item"><p class="content">picture</p></button>

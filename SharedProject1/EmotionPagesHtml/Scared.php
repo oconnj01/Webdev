@@ -11,7 +11,7 @@
     <script src="../Bootstrap/js/bootstrap.min.js"></script>
     <link rel="shortcut icon" href="../PurpleOctopus.png">
 </head>
-<body id="angryColor">
+<body id="scaredColor">
     <nav class="navbar navbar-default navbar-fixed-top">
         <div class="container">
             <div class="navbar-header">
@@ -56,7 +56,7 @@
         </div>
     </nav>
     <div class="row">
-        <h1 id="angryHeader">Angry</h1>
+        <h1>Scared</h1>
         <div id="tableContainer">
             <div class="row">
                 <button class="col-md-4 widget" id="item"><p class="content">picture</p></button>
