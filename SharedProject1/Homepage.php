@@ -39,12 +39,12 @@
 						session_start();
                         if(isset($_SESSION["email"])){
                         ?>
-							<span><a class="signOut" href="../RegisterLogin/SignIn.php">Sign out</a></span>
+							<span><a class="signOut" href="RegisterLogin/SignIn.php">Sign out</a></span>
                         <?php
                         }
                         else{
                         ?>
-							<span><a class="signIn" href="../RegisterLogin/SignIn.php">Sign in</a></span>
+							<span><a class="signIn" href="RegisterLogin/SignIn.php">Sign in</a></span>
                         <?php
                         }
                     }
