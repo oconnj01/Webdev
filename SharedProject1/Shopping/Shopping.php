@@ -51,7 +51,7 @@
                 </form>
 
                 <ul class="nav navbar-nav">
-                    <li><a href="http://webdev.cs.uwosh.edu/students/salina99/Project/SharedProject1/Profile/Profile.php">Profile</a></li>
+                    <li><a href="../Profile/Profile.php">Profile</a></li>
                     <li><a href="Shopping.php">Shopping</a></li>
                     <li><a href="../About.php">About</a></li>
                 </ul>
