@@ -7,6 +7,26 @@ h1{
     text-align:center;
 }
 
+.thumbnail{
+    border: none;
+    text-align:center;
+}
+
+.thumbnail>span{
+    font-size: 18pt;
+}
+
+#topRow{
+    margin-top: 50px;
+}
+
+.img{
+    width: 128px;
+    height: 128px;
+    border: 1px solid transparent;
+    border-radius: 10px;
+}
+
 /*#region Happy*/
 
 #happyColor
@@ -128,7 +148,7 @@ h1{
      padding-top: 10%;
     
      /*...What i changed to get page centered*/
-     padding-left: 10%;
+     padding-left:10%;
      padding-right: 10%;
      
     /*// width: 100px;
