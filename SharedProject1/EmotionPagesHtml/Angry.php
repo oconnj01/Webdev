@@ -11,7 +11,7 @@
     <script src="../Bootstrap/js/bootstrap.min.js"></script>
     <link rel="shortcut icon" href="../PurpleOctopus.png">
 </head>
-<body id="scaredColor">
+<body id="angryColor">
     <nav class="navbar navbar-default navbar-fixed-top">
         <div class="container">
             <div class="navbar-header">
@@ -54,14 +54,14 @@
 
                 <ul class="nav navbar-nav">
                     <li><a href="../Profile/Profile.php">Profile</a></li>
-                    <li><a href="../Shopping/Shopping.php">Shopping</a></li>
-                    <li><a href="../About.php">About</a></li>
+                    <li><a href="../Shopping/Shopping.html">Shopping</a></li>
+                    <li><a href="../About.html">About</a></li>
                 </ul>
             </div>
         </div>
     </nav>
     <div class="row">
-        <h1>Scared</h1>
+        <h1 id="angryHeader">Angry</h1>
         <div id="tableContainer">
             <div class="row">
                 <button class="col-md-4 widget" id="item"><p class="content">picture</p></button>

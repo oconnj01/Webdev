@@ -1,4 +1,8 @@
-﻿<!DOCTYPE html>
+﻿<?php
+session_start(); 
+?>
+
+<!DOCTYPE html>
 
 <html lang="en">
 <head>
@@ -10,9 +14,30 @@
     <script src="../JavaScript/SignUpIn.js" type="text/javascript"></script>
     <link rel="stylesheet" href="SignIn.css">
 </head>
-<body>    
+
+
+<body>     
     <form id="signInForm" action="verifySignIn.php" method="post" enctype="multipart/form-data">
-        <h1>Welcome back!</h1>
+        
+        <?php
+		main();
+
+		function main(){
+        if(isset($_SESSION["email"])){
+			$user = $_SESSION["username"]; 
+        ?>
+            <h1>You have successfully signed out</h1>
+            <h1>See you next time, <?=$user?>!</h1>
+        <?php
+            session_unset();
+        } 
+        else{
+        ?>
+            <h1>Welcome back!</h1>
+        <?php
+		}
+        }
+        ?>  
         <div id="signInDiv">
             <a href="../Homepage.html" class="btn btn-default" id="homepageButton">Back to Homepage</a> <br />
             <div class="form-group">
@@ -25,9 +50,10 @@
             </div>
             
             <!--<a href="Profile.html" class="btn btn-default">Login</a>-->
-            <a href="SignUp2.html" class="btn btn-default" id="signUpButton">Sign up</a>
+          
             <input type="submit" name="submit" value="Sign In" class="btn btn-default" id="signInButton" />
-        </div> 
+			<a href="SignUp2.html" class="btn btn-default" id="signUpButton" style="text-decoration: none">Sign up</a>
+	   </div> 
     </form>
 
     <p>

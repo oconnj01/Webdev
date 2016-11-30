@@ -6,12 +6,10 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="../Bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="Emotions.css">
+    <link rel="stylesheet" type="text/css" href="Shopping.css">
     <script src="../Bootstrap/js/bootstrap.min.js"></script>
-    <script src="../Bootstrap/js/bootstrap.min.js"></script>
-    <link rel="shortcut icon" href="../PurpleOctopus.png">
 </head>
-<body id="scaredColor">
+<body>
     <nav class="navbar navbar-default navbar-fixed-top">
         <div class="container">
             <div class="navbar-header">
@@ -28,7 +26,7 @@
 
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 
-                <form class="navbar-form navbar-right">
+                <form class="navbar-form navbar-right" >
                     <div class="form-group">
                         <input type="text" class="form-control" placeholder="Search">
                     </div>
@@ -53,27 +51,70 @@
                 </form>
 
                 <ul class="nav navbar-nav">
-                    <li><a href="../Profile/Profile.php">Profile</a></li>
-                    <li><a href="../Shopping/Shopping.php">Shopping</a></li>
+                    <li><a href="http://webdev.cs.uwosh.edu/students/salina99/Project/SharedProject1/Profile/Profile.php">Profile</a></li>
+                    <li><a href="Shopping.php">Shopping</a></li>
                     <li><a href="../About.php">About</a></li>
                 </ul>
             </div>
         </div>
     </nav>
-    <div class="row">
-        <h1>Scared</h1>
-        <div id="tableContainer">
-            <div class="row">
-                <button class="col-md-4 widget" id="item"><p class="content">picture</p></button>
-                <button class="col-md-4 widget" id="item"><p class="content">meme</p></button>
-                <button class="col-md-4 widget" id="item"><p class="content">video</p></button>
-            </div>
-            <div class="row" id="bottomRow">
-                <button class="col-md-4 widget" id="item"><p class="content">picture</p></button>
-                <button class="col-md-4 widget" id="item"><p class="content">video</p></button>
-                <button class="col-md-4 widget" id="item"><p class="content">meme</p></button>
-            </div>
-        </div>
+
+    <div class="container">
+        <table class="table table-hover shoppingCart">
+            <thead>
+                <tr>
+                    <th>#</th>
+                    <!--<th>Image</th>-->
+                    <th>Name</th>
+                    <th>Price</th>
+                    <th>Quantity</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Yellow Mug</td>
+                    <td>$7.00</td>
+                    <td>1</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Column content</td>
+                    <td>Column content</td>
+                    <td>Column content</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Column content</td>
+                    <td>Column content</td>
+                    <td>Column content</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>Column content</td>
+                    <td>Column content</td>
+                    <td>Column content</td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td>Column content</td>
+                    <td>Column content</td>
+                    <td>Column content</td>
+                </tr>
+                <tr>
+                    <td>6</td>
+                    <td>Column content</td>
+                    <td>Column content</td>
+                    <td>Column content</td>
+                </tr>
+                <tr>
+                    <td>7</td>
+                    <td>Column content</td>
+                    <td>Column content</td>
+                    <td>Column content</td>
+                </tr>
+            </tbody>
+        </table> 
     </div>
 
     <p>

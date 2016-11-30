@@ -10,7 +10,18 @@
     <script src="../JavaScript/SignUpIn.js" type="text/javascript"></script>
     <link rel="stylesheet" href="SignIn.css">
 </head>
-<body>    
+
+
+<body>   
+    <?php
+    if(isset($_SESSION['login_user'])){
+    ?>
+        <p>You have successfully signed out</p>
+        <p>See you next time, <?=$user?>!</p>
+    <?php
+        session_unset();
+    } 
+    ?>    
     <form id="signInForm" action="verifySignIn.php" method="post" enctype="multipart/form-data">
         <h1>Welcome back!</h1>
         <div id="signInDiv">

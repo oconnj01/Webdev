@@ -17,6 +17,7 @@
     main();
 
     function main(){
+	<!-- might not need if have a session with username -->
     include("../RegisterLogin/login_session.php"); 
     ?>
 
@@ -31,7 +32,7 @@
                     <span class="icon-bar"></span>
                 </button>
 
-                <a class="navbar-brand" href="../Homepage.html">WebSiteName</a>
+                
             </div>
 
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">

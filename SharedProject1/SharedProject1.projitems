@@ -10,7 +10,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Content Include="$(MSBuildThisFileDirectory)About.css" />
-    <Content Include="$(MSBuildThisFileDirectory)About.html" />
+    <Content Include="$(MSBuildThisFileDirectory)About.php" />
     <Content Include="$(MSBuildThisFileDirectory)Bootstrap\css\bootstrap-theme.css" />
     <Content Include="$(MSBuildThisFileDirectory)Bootstrap\css\bootstrap-theme.min.css" />
     <Content Include="$(MSBuildThisFileDirectory)Bootstrap\css\bootstrap.css" />
@@ -18,7 +18,7 @@
     <Content Include="$(MSBuildThisFileDirectory)Bootstrap\fonts\glyphicons-halflings-regular.eot" />
     <Content Include="$(MSBuildThisFileDirectory)Bootstrap\fonts\glyphicons-halflings-regular.ttf" />
     <Content Include="$(MSBuildThisFileDirectory)Bootstrap\fonts\glyphicons-halflings-regular.woff" />
-    <Content Include="$(MSBuildThisFileDirectory)EmotionPagesHtml\Angry.html" />
+    <Content Include="$(MSBuildThisFileDirectory)EmotionPagesHtml\Angry.php" />
     <Content Include="$(MSBuildThisFileDirectory)EmotionPagesHtml\Emotions.css" />
     <Content Include="$(MSBuildThisFileDirectory)EmotionPagesHtml\Happy.php" />
     <Content Include="$(MSBuildThisFileDirectory)EmotionPagesHtml\Random.php" />
@@ -33,7 +33,7 @@
     <Content Include="$(MSBuildThisFileDirectory)Profile\uploads\cat.jpg" />
     <Content Include="$(MSBuildThisFileDirectory)PurpleOctopus.png" />
     <Content Include="$(MSBuildThisFileDirectory)RegisterLogin\SignIn.css" />
-    <Content Include="$(MSBuildThisFileDirectory)RegisterLogin\SignIn.html" />
+    <Content Include="$(MSBuildThisFileDirectory)RegisterLogin\SignIn.php" />
     <Content Include="$(MSBuildThisFileDirectory)RegisterLogin\SignUp2.html" />
     <Content Include="$(MSBuildThisFileDirectory)RegisterLogin\SignUp.css" />
     <Content Include="$(MSBuildThisFileDirectory)RegisterLogin\SignUp.html" />
@@ -61,8 +61,8 @@
     <Content Include="$(MSBuildThisFileDirectory)Shopping\ShopImages\UseShirt.jpg" />
     <Content Include="$(MSBuildThisFileDirectory)Shopping\ShopImages\yellowmug1.jpg" />
     <Content Include="$(MSBuildThisFileDirectory)Shopping\Shopping.css" />
-    <Content Include="$(MSBuildThisFileDirectory)Shopping\Shopping.html" />
-    <Content Include="$(MSBuildThisFileDirectory)Shopping\ShoppingCart.html" />
+    <Content Include="$(MSBuildThisFileDirectory)Shopping\Shopping.php" />
+    <Content Include="$(MSBuildThisFileDirectory)Shopping\ShoppingCart.php" />
   </ItemGroup>
   <ItemGroup>
     <None Include="$(MSBuildThisFileDirectory)Bootstrap\css\bootstrap-theme.css.map" />
