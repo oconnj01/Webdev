@@ -58,7 +58,7 @@
                 </form>
 
                 <ul class="nav navbar-nav">
-                    <li><a href="Profile/Profile.html">Profile</a></li>
+                    <li><a href="Profile.php">Profile</a></li>
                     <li><a href="../Shopping/Shopping.html">Shopping</a></li>
                     <li><a href="../About.html">About</a></li>
                 </ul>
