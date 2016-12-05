@@ -52,8 +52,13 @@
                 </form>
 
                 <ul class="nav navbar-nav">
-                    <li><a href="http://webdev.cs.uwosh.edu/students/salina99/Project/SharedProject1/Profile/Profile.php">Profile</a></li>
-                    <li><a href="Shopping/Shopping.php">Shopping</a></li>
+					<?php
+						if(isset($_SESSION["email"])){
+						?>
+							<li><a href="../Profile/Profile.php">Profile</a></li>
+						<?php
+						}
+					?>                    <li><a href="Shopping/Shopping.php">Shopping</a></li>
                     <li><a href="About.php">About</a></li>
                 </ul>
             </div>

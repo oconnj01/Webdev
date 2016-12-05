@@ -39,7 +39,7 @@ session_start();
         }
         ?>  
         <div id="signInDiv">
-            <a href="../Homepage.html" class="btn btn-default" id="homepageButton">Back to Homepage</a> <br />
+            <a href="../Homepage.php" class="btn btn-default" id="homepageButton">Back to Homepage</a> <br />
             <div class="form-group">
                 <label for="userEmail">Email address</label>
                 <input type="email" name="email" class="form-control" id="userEmail" placeholder="Email">
@@ -52,7 +52,7 @@ session_start();
             <!--<a href="Profile.html" class="btn btn-default">Login</a>-->
           
             <input type="submit" name="submit" value="Sign In" class="btn btn-default" id="signInButton" />
-			<a href="SignUp2.html" class="btn btn-default" id="signUpButton" style="text-decoration: none">Sign up</a>
+			<a href="SignUp.php" class="btn btn-default" id="signUpButton" style="text-decoration: none">Sign up</a>
 	   </div> 
     </form>
 
