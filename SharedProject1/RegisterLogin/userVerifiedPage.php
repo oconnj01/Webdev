@@ -9,12 +9,18 @@
     <title>Webdev Project</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	 <script src="JavaScript/SignUpIn.js" type="text/javascript"></script>
+    <script src="../JavaScript/jquery-3.1.1.min.js"></script>
+    <script src="../JavaScript/SignUpIn.js" type="text/javascript"></script>
+	 <link rel="stylesheet" type="text/css" href="SignUp.css">
+	
+
+   <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
-    <link rel="stylesheet" type="text/css" href="SignUp.css">
+   
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    <script src="JavaScript/SignUpIn.js" type="text/javascript"></script>
+   -->
 </head>
 <body>
 	<?php
@@ -51,7 +57,7 @@
 				$db->query("INSERT INTO WebUser VALUES('',$username,$password,$email)");
 				$_SESSION["email"] = $email;   
 								
-				header("Location: http://webdev.cs.uwosh.edu/students/salina99/Project/SharedProject1/Profile/Profile.php"); // Redirecting To Profile Page				
+				header("Location: ../Profile/Profile.php"); // Redirecting To Profile Page				
 			}						
 		}
 		main();		
