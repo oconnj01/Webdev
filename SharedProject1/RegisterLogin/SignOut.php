@@ -17,7 +17,7 @@
     main();
 
     function main(){
-	<!-- might not need if have a session with username -->
+	//<!-- might not need if have a session with username -->
     include("../RegisterLogin/login_session.php"); 
     ?>
 
