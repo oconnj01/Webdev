@@ -1,0 +1,132 @@
+/*#region check valid inputs*/
+.redBackground{
+    background-color: indianred;
+    color: black;
+}
+.greenBackground{
+    background-color: limegreen;
+    color: black;
+}
+
+.whiteBackground{
+    background-color: white;
+    color: black;
+}
+/*#endregion*/
+
+body{
+    background-color: #C8C8C8;
+
+    background-color: #C8C8C8;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+}
+
+input[type=text], input[type=email], input[type=password]{ 
+    font-size: 14pt;
+    border: 2px solid #C8C8C8;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 2px;
+}
+
+input[type=text], input[type=email], input[type=password]:focus{
+    outline-width: 0;
+}
+
+#signUpForm{
+    background-color: #009999;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    padding: 20px;
+    width: 600px;
+    margin: 0 auto;
+    position: relative;
+    top: -70px;
+}
+
+#signUpDiv{
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: #ffffff;
+    
+}
+
+.btn{
+    margin-bottom: 5px;
+    margin-top: 5px;
+    margin-left: 10px;
+    padding: 5px;
+    background-color: #3c3c3c;
+    color: white;
+	text-decoration: none;
+}
+
+#signUpButton{
+    float: right;
+    margin-right: 30px;
+    
+	margin-bottom: 10px;
+    border: none;
+	font-size: 14pt;
+	
+}
+
+#homepageButton{
+    float: right;
+    margin-right: 10px;
+    margin-bottom: 30px;
+}
+
+a{
+	 text-decoration: none;
+}
+
+.btn:hover{
+    color: black;
+    text-decoration: none;
+}
+
+#fName, #lName{
+    width: 30%;
+}   
+
+.form-group{
+    margin: 5px;
+    padding: 5px;
+    
+}
+
+.form-control{
+    display: inline;
+    width: 60%;
+    position: relative;
+    left: 70px;
+}
+
+label{
+    position: relative;
+    left: 75px;
+}
+
+#birthDate{
+    font-size: large;
+    position: relative;
+    left: 50px;
+}
+
+#dateText{
+    width: 20%;
+}
+
+.form-group{
+    margin: 10px;
+    padding: 10px;
+}
+h1{
+    text-align: center;
+}
