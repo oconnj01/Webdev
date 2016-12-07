@@ -5,13 +5,22 @@
     <title>Webdev Project</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="../JavaScript/jquery-3.1.1.min.js"></script>
     <link rel="stylesheet" href="../Bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="Emotions.css">
     <script src="../Bootstrap/js/bootstrap.min.js"></script>
-    <script src="../Bootstrap/js/bootstrap.min.js"></script>
-    <link rel="shortcut icon" href="../PurpleOctopus.png">
+    <script src="ImageUpload.js" type="text/javascript"></script>
+    <link rel="stylesheet" type="text/css" href="Profile.css">
+    <link rel="stylesheet" type="text/css" href="../Homepage.css">
 </head>
-<body id="relaxedColor">
+<body>
+    <?php
+    main();
+
+    function main(){
+	//<!-- might not need if have a session with username -->
+    include("../RegisterLogin/login_session.php"); 
+    ?>
+
     <nav class="navbar navbar-default navbar-fixed-top">
         <div class="container">
             <div class="navbar-header">
@@ -23,7 +32,7 @@
                     <span class="icon-bar"></span>
                 </button>
 
-                <a class="navbar-brand" href="../Homepage.html">WebSiteName</a>
+                
             </div>
 
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -33,35 +42,32 @@
                         <input type="text" class="form-control" placeholder="Search">
                     </div>
                     <button type="submit" class="btn btn-default glyphicon glyphicon-search"> </button>
+                     
                     <span><a class="signIn" href="../RegisterLogin/SignIn.html">Sign in</a></span>
+                    
                 </form>
 
                 <ul class="nav navbar-nav">
-                    <li><a href="../Profile/Profile.php">Profile</a></li>
+                    
                     <li><a href="../Shopping/Shopping.html">Shopping</a></li>
                     <li><a href="../About.html">About</a></li>
                 </ul>
-            </div>
+            </div>			
         </div>
     </nav>
-    <div class="row">
-        <h1>Relaxed</h1>
-        <div id="tableContainer">
-            <div class="row">
-                <button class="col-md-4 widget" id="item"><p class="content">picture</p></button>
-                <button class="col-md-4 widget" id="item"><p class="content">meme</p></button>
-                <button class="col-md-4 widget" id="item"><p class="content">video</p></button>
-            </div>
-            <div class="row" id="bottomRow">
-                <button class="col-md-4 widget" id="item"><p class="content">picture</p></button>
-                <button class="col-md-4 widget" id="item"><p class="content">video</p></button>
-                <button class="col-md-4 widget" id="item"><p class="content">meme</p></button>
-            </div>
-        </div>
+	<p>You have successfully signed out</p>
+    <p>See you next time, <?=$user?>!</p>
+
+    <?php	
+		session_unset();
+	}
+	?>  
+	 
     </div>
 
-    <p>
+    <div>
         <a href="http://validator.w3.org/check/referer">Validate Me</a>
-    </p>
+    </div>
+
 </body>
 </html>

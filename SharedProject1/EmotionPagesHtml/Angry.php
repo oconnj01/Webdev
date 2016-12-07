@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="../Bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="Emotions.css">
     <script src="../Bootstrap/js/bootstrap.min.js"></script>
+    <script src="../Bootstrap/js/bootstrap.min.js"></script>
     <link rel="shortcut icon" href="../PurpleOctopus.png">
 </head>
 <body id="angryColor">
@@ -36,16 +37,17 @@
                     main();
 
                     function main(){
-                    if(isset($_SESSION["email"])){
-                    ?>
-                    <span><a class="signOut" href="../RegisterLogin/SignIn.php">Sign out</a></span>
-                    <?php
-                    }
-                    else{
-                    ?>
-                    <span><a class="signIn" href="../RegisterLogin/SignIn.php">Sign in</a></span>
-                    <?php
-                    }
+						session_start();
+                        if(isset($_SESSION["email"])){
+                        ?>
+                        <span><a class="signOut" href="../RegisterLogin/SignIn.php">Sign out</a></span>
+                        <?php
+                        }
+                        else{
+                        ?>
+                        <span><a class="signIn" href="../RegisterLogin/SignIn.php">Sign in</a></span>
+                        <?php
+                        }
                     }
                     ?>
                 </form>
@@ -58,85 +60,85 @@
             </div>
         </div>
     </nav>
-
-    <!-- <div class="row">
-         <h1 id="angryHeader">Angry</h1>
-         <div id="tableContainer">
-             <div class="row">
-                 <button class="col-md-4 widget" id="item"><p class="content">picture</p></button>
-                 <button class="col-md-4 widget" id="item"><p class="content">meme</p></button>
-                 <button class="col-md-4 widget" id="item"><p class="content">video</p></button>
-             </div>
-             <div class="row" id="bottomRow">
-                 <button class="col-md-4 widget" id="item"><p class="content">picture</p></button>
-                 <button class="col-md-4 widget" id="item"><p class="content">video</p></button>
-                 <button class="col-md-4 widget" id="item"><p class="content">meme</p></button>
-             </div>
-         </div>
-     </div>-->
-    <h1 id="angryHeader">Angry</h1>
-    <div class="container-fluid ">
+	<h1>Angry</h1>
+	 <div class="container-fluid ">
         <div class="row" id="topRow">
+            <div class="col-sm-12 col-xs-12 col-md-4 col-lg-3 ">
+                <div class="thumbnail widget">
+					<img src="Images/Images/angry.jpg" alt="Picture of red shirt" class="img" id="item"/> 
+                </div>
+            </div>
+            <div class="col-sm-12 col-xs-12 col-md-4 col-lg-3 ">
+                <div class="thumbnail widget">
+                    <img src="Images/Images/angry.jpg" alt="Picture of green shirt" class="img" />
+                </div>
+            </div>
+            <div class="col-sm-12 col-xs-12 col-md-4 col-lg-3">
+                <div class="thumbnail widget">
+                    <img src="Images/Images/angry4.jpg" alt="Picture of blue shirt" class="img" />   
+                </div>
+            </div>
+            <div class="col-sm-12 col-xs-12 col-md-4 col-lg-3">
+                <div class="thumbnail widget">
+                    <img src="Images/Images/angry.jpg" alt="Picture of yellow shirt" class="img" />
+                   
+                </div>
+            </div>
 
-            <div class="col-sm-12 col-xs-12 col-md-4 col-lg-3">
-                <div class="thumbnail">
-                    <img src="ShopImages/shirt1_red.jpg" alt="Picture of red shirt" class="img" />
-     
-                </div>
-            </div>
-            <div class="col-sm-12 col-xs-12 col-md-4 col-lg-3">
-                <div class="thumbnail">
-                    <img src="ShopImages/shirt1_green.jpg" alt="Picture of green shirt" class="img" />
-                  
-                </div>
-            </div>
-            <div class="col-sm-12 col-xs-12 col-md-4 col-lg-3">
-                <div class="thumbnail">
-                    <img src="ShopImages/shirt1_blue.jpg" alt="Picture of blue shirt" class="img" />
-                    
-                </div>
-            </div>
-            <div class="col-sm-12 col-xs-12 col-md-4 col-lg-3">
-                <div class="thumbnail">
-                    <img src="ShopImages/shirt1_yellow.jpg" alt="Picture of yellow shirt" class="img" />
-                  
-                </div>
-            </div>
+
         </div>
         <div class="row">
 
             <div class="col-sm-12 col-xs-12 col-md-4 col-lg-3">
-                <div class="thumbnail">
-                    <img src="ShopImages/shirt1_red.jpg" alt="Picture of red shirt" class="img" />
-                   
+                <div class="thumbnail widget">
+                    <img src="ShopImages/shirt1_red.jpg" alt="Picture of red shirt" class="img" />     
                 </div>
             </div>
             <div class="col-sm-12 col-xs-12 col-md-4 col-lg-3">
-                <div class="thumbnail">
+                <div class="thumbnail widget">
+                    <img src="ShopImages/shirt1_green.jpg" alt="Picture of green shirt" class="img" /> 
+                </div>
+            </div>
+            <div class="col-sm-12 col-xs-12 col-md-4 col-lg-3">
+                <div class="thumbnail widget">
+                    <img src="ShopImages/shirt1_blue.jpg" alt="Picture of blue shirt" class="img" />    
+                </div>
+            </div>
+            <div class="col-sm-12 col-xs-12 col-md-4 col-lg-3">
+                <div class="thumbnail widget">
+                    <img src="ShopImages/shirt1_yellow.jpg" alt="Picture of yellow shirt" class="img" />
+                </div>
+            </div>
+
+        </div>
+        <div class="row">
+            <div class="col-sm-12 col-xs-12 col-md-4 col-lg-3">
+                <div class="thumbnail widget">
+                    <img src="ShopImages/shirt1_red.jpg" alt="Picture of red shirt" class="img" />
+                </div>
+            </div>
+            <div class="col-sm-12 col-xs-12 col-md-4 col-lg-3">
+                <div class="thumbnail widget">
                     <img src="ShopImages/shirt1_green.jpg" alt="Picture of green shirt" class="img" />
+                 
+                </div>
+            </div>
+            <div class="col-sm-12 col-xs-12 col-md-4 col-lg-3">
+                <div class="thumbnail widget">
+                    <img src="ShopImages/shirt1_blue.jpg" alt="Picture of blue shirt" class="img" />
                   
                 </div>
             </div>
             <div class="col-sm-12 col-xs-12 col-md-4 col-lg-3">
-                <div class="thumbnail">
-                    <img src="ShopImages/shirt1_blue.jpg" alt="Picture of blue shirt" class="img" />
-                   
-                </div>
-            </div>
-            <div class="col-sm-12 col-xs-12 col-md-4 col-lg-3">
-                <div class="thumbnail">
+                <div class="thumbnail widget">
                     <img src="ShopImages/shirt1_yellow.jpg" alt="Picture of yellow shirt" class="img" />
                    
                 </div>
             </div>
-
-
         </div>
-    </div>
 
-
-            <p>
-                <a href="http://validator.w3.org/check/referer">Validate Me</a>
-            </p>
+    <p>
+        <a href="http://validator.w3.org/check/referer">Validate Me</a>
+    </p>
 </body>
 </html>

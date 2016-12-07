@@ -22,7 +22,7 @@
                     <span class="icon-bar"></span>
                 </button>
 
-                <a class="navbar-brand" href="Homepage.html">WebSiteName</a>
+                <a class="navbar-brand" href="Homepage.php">WebSiteName</a>
             </div>
 
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -32,13 +32,34 @@
                         <input type="text" class="form-control" placeholder="Search">
                     </div>
                     <button type="submit" class="btn btn-default glyphicon glyphicon-search"> </button>
-                    <span><a class="signIn" href="RegisterLogin/SignIn.html">Sign in</a></span>
+                    <?php
+                    main();
+
+                    function main(){
+						session_start();
+                        if(isset($_SESSION["email"])){
+                        ?>
+							<span><a class="signOut" href="RegisterLogin/SignIn.php">Sign out</a></span>
+                        <?php
+                        }
+                        else{
+                        ?>
+							<span><a class="signIn" href="RegisterLogin/SignIn.php">Sign in</a></span>
+                        <?php
+                        }
+                    }
+                    ?>
                 </form>
 
                 <ul class="nav navbar-nav">
-                    <li><a href="Profile/Profile.php">Profile</a></li>
-                    <li><a href="Shopping/Shopping.html">Shopping</a></li>
-                    <li><a href="About.html">About</a></li>
+					<?php
+						if(isset($_SESSION["email"])){
+						?>
+							<li><a href="../Profile/Profile.php">Profile</a></li>
+						<?php
+						}
+					?>                    <li><a href="Shopping/Shopping.php">Shopping</a></li>
+                    <li><a href="About.php">About</a></li>
                 </ul>
             </div>
         </div>
@@ -47,14 +68,14 @@
         <h1>Homepage</h1>
         <div id="tableContainer">
             <div class="row">
-                <a href="EmotionPagesHtml/Happy.html"><button class="col-md-4 widget" id="yellow">Happy</button></a>
-                <a href="EmotionPagesHtml/Sad.html"><button class="col-md-4 widget" id="blue">Sad</button></a>
-                <a href="EmotionPagesHtml/Angry.html"><button class="col-md-4 widget" id="red">Angry</button></a>
+                <a href="EmotionPagesHtml/Happy.php"><button class="col-md-4 widget" id="yellow">Happy</button></a>
+                <a href="EmotionPagesHtml/Sad.php"><button class="col-md-4 widget" id="blue">Sad</button></a>
+                <a href="EmotionPagesHtml/Angry.php"><button class="col-md-4 widget" id="red">Angry</button></a>
             </div>
             <div class="row" id="bottomRow">
-                <a href="EmotionPagesHtml/Relaxed.html"><button class="col-md-4 widget" id="green">Relaxed</button></a>
-                <a href="EmotionPagesHtml/Scared.html"><button class="col-md-4 widget" id="orange">Scared</button></a>
-                <a href="EmotionPagesHtml/Random.html"><button class="col-md-4 widget" id="purple">Random</button></a>
+                <a href="EmotionPagesHtml/Relaxed.php"><button class="col-md-4 widget" id="green">Relaxed</button></a>
+                <a href="EmotionPagesHtml/Scared.php"><button class="col-md-4 widget" id="orange">Scared</button></a>
+                <a href="EmotionPagesHtml/Random.php"><button class="col-md-4 widget" id="purple">Random</button></a>
             </div>
             
         </div>

@@ -14,7 +14,7 @@
     <form action="userVerifiedPage.php" method="post" id="signUpForm">
         <h1>Welcome to our website!</h1>
         <div id="signUpDiv">
-            <a href="../Homepage.html" class="btn btn-default" id="homepageButton">Back to Homepage</a> <br />
+            <a href="../Homepage.php" class="btn btn-default" id="homepageButton">Back to Homepage</a> <br />
             <div class="form-group">
                 <label for="user">Username</label> <br />
                 <input name="username" type="text" class="form-control nameForm" id="user" placeholder="Username" required />
