@@ -21,7 +21,6 @@
 		foreach($returnVals as $row)
 		{
 			$img = $row["PathName"];
-			//echo $img;
 			
 			if($count == 0)
 			{				
@@ -40,15 +39,17 @@
 				</div>
 				
 		<?php
-			if($count == 4)
+			if($count == 3)
 			{				
 				$count = 0;
 				?>
 					</div>
 				<?php				
-			}	
-			$count++;
-			
+			}
+			else	
+			{
+				$count++;
+			}				
 		}//end of foreach
 	}
 	
