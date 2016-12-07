@@ -27,16 +27,13 @@
     <Content Include="$(MSBuildThisFileDirectory)EmotionPagesHtml\Scared.php" />
     <Content Include="$(MSBuildThisFileDirectory)Homepage.css" />
     <Content Include="$(MSBuildThisFileDirectory)Homepage.php" />
-    <Content Include="$(MSBuildThisFileDirectory)Profile\htmlForm.html" />
     <Content Include="$(MSBuildThisFileDirectory)Profile\Profile.css" />
     <Content Include="$(MSBuildThisFileDirectory)Profile\Profile.php" />
     <Content Include="$(MSBuildThisFileDirectory)Profile\uploads\cat.jpg" />
     <Content Include="$(MSBuildThisFileDirectory)PurpleOctopus.png" />
     <Content Include="$(MSBuildThisFileDirectory)RegisterLogin\SignIn.css" />
     <Content Include="$(MSBuildThisFileDirectory)RegisterLogin\SignIn.php" />
-    <Content Include="$(MSBuildThisFileDirectory)RegisterLogin\SignUp2.html" />
     <Content Include="$(MSBuildThisFileDirectory)RegisterLogin\SignUp.css" />
-    <Content Include="$(MSBuildThisFileDirectory)RegisterLogin\SignUp.html" />
     <Content Include="$(MSBuildThisFileDirectory)RegisterLogin\login_session.php" />
     <Content Include="$(MSBuildThisFileDirectory)RegisterLogin\SignOut.php" />
     <Content Include="$(MSBuildThisFileDirectory)RegisterLogin\SignOut.css" />
