@@ -41,7 +41,7 @@
  				{
  					?>
  						<p>Sorry, this password is incorrect</p>
- 						<form action="SignIn.html">
+ 						<form action="SignIn.php">
  							<input type="submit" value="Back To Sign In" />
  						</form>
  					<?php
@@ -53,7 +53,7 @@
  			{
  				?>
  					<p>Sorry, this password is incorrect</p>
- 					<form action="SignIn.html">
+ 					<form action="SignIn.php">
  						<input type="submit" value="Back To Sign In" />
  					</form>
  				<?php

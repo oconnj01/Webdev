@@ -39,7 +39,7 @@
 
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 
-                <form class="navbar-form navbar-right">
+                <form class="navbar-form navbar-right" action="../Php/search.php" method="POST">
                     <div class="form-group">
                         <input type="text" class="form-control" placeholder="Search">
                     </div>

@@ -25,6 +25,11 @@ function CreatePasswordChanged() {
     }
     else if (password.value.search(regexExpress) === -1) {
         redClass(password);
+        //$("#confirmPassword").prop("disabled", true);
+        var reEntryField = document.getElementById("confirmPassword");
+        reEntryField.disabled = true;
+        reEntryField.className = "whiteClass";
+        reEntryField.value = "";
     }
     else {
         greenClass(password);

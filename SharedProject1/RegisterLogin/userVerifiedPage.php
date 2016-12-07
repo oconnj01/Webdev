@@ -39,7 +39,7 @@
 
 					?>
 						<p><?=$value["Email"]?> already has an account associated with it</p>
-						<form action="SignUp.html">
+						<form action="SignUp.php">
 							<input type="submit" value="Go Back To Sign Up Page" />
 						</form>
 					<?php
