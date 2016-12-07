@@ -70,7 +70,6 @@
     <None Include="$(MSBuildThisFileDirectory)Bootstrap\fonts\glyphicons-halflings-regular.woff2" />
     <None Include="$(MSBuildThisFileDirectory)Bootstrap\js\bootstrap.js" />
     <None Include="$(MSBuildThisFileDirectory)Bootstrap\js\bootstrap.min.js" />
-    <None Include="$(MSBuildThisFileDirectory)Bootstrap\js\npm.js" />
     <None Include="$(MSBuildThisFileDirectory)JavaScript\jquery-3.1.1.min.js" />
     <None Include="$(MSBuildThisFileDirectory)JavaScript\SignUpIn.js" />
     <None Include="$(MSBuildThisFileDirectory)Profile\upload.php" />
