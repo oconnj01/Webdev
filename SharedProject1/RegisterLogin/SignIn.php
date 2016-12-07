@@ -39,7 +39,7 @@ session_start();
         }
         ?>  
         <div id="signInDiv">
-            <a href="../Homepage.php" class="btn btn-default" id="homepageButton">Back to Homepage</a> <br />
+            <a href="../Homepage.php" class="btn btn-default" id="homepageButton">Enter as Guest</a> <br />
             <div class="form-group">
                 <label for="userEmail">Email address</label>
                 <input type="email" name="email" class="form-control" id="userEmail" placeholder="Email">

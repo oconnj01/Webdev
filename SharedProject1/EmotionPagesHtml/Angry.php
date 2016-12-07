@@ -53,7 +53,13 @@
                 </form>
 
                 <ul class="nav navbar-nav">
-                    <li><a href="../Profile/Profile.php">Profile</a></li>
+                    <?php
+						if(isset($_SESSION["email"])){
+						?>
+							<li><a href="Profile/Profile.php">Profile</a></li>
+						<?php
+						}
+					?>   
                     <li><a href="../Shopping/Shopping.html">Shopping</a></li>
                     <li><a href="../About.html">About</a></li>
                 </ul>

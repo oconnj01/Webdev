@@ -58,7 +58,8 @@
 							<li><a href="Profile/Profile.php">Profile</a></li>
 						<?php
 						}
-					?>                    <li><a href="Shopping/Shopping.php">Shopping</a></li>
+					?>                    
+					<li><a href="Shopping/Shopping.php">Shopping</a></li>
                     <li><a href="About.php">About</a></li>
                 </ul>
             </div>
