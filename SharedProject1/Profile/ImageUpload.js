@@ -1,8 +1,11 @@
 ﻿$(document).ready(function (e) {
+
+    loadImg();
+
+
+
     $("#uploadimage").on('submit', (function (e) {
-        e.preventDefault();
-        $("#message").empty();
-        $('#loading').show();
+
         $.ajax({
             url: "upload.php", // Url to which the request is send
             type: "POST",             // Type of request to be send, called as method
@@ -12,13 +15,40 @@
             processData: false,        // To send DOMDocument or non processed data file it is set to false
             success: function (data)   // A function to be called if request succeeds
             {
-                $('#loading').hide();
-                $("#message").html(data);
+
+                console.log(data);
             },
-            error: function ()
-            {
-                $("#upload").append("failed");
+            error: function (xhr, status, error) {
+                console.log(error);
             }
         });
-    }))
+
+        loadImg();
+
+    }));
+
+    function loadImg() {
+        var file = $("#file").val();
+
+        $.ajax({
+            method: "POST",
+            url: "ajaxDB.php",
+            data:
+              {
+
+              },
+            success: function (data) {
+                $('#page').append(data);
+                console.log(data);
+            },
+            error: function (xhr, status, error) {
+                console.log(error);
+            }
+        }).done(function (data) {
+            console.log(data);
+        });
+        console.log();
+    }
+
+    //https://www.formget.com/ajax-image-upload-php/ - reference
 });

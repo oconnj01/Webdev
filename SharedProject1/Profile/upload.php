@@ -1,6 +1,8 @@
 <?php
+
 	if(isset($_FILES["file"]["type"]))
 	{
+		echo $_FILES["file"]["type"];
 		$validextensions = array("jpeg", "jpg", "png");
 		$temporary = explode(".", $_FILES["file"]["name"]);
 		$file_extension = end($temporary);
@@ -22,14 +24,27 @@
 				}
 				else
 				{
+					$fileName = $_FILES['file']['name'];
+					
 					$sourcePath = $_FILES['file']['tmp_name']; // Storing source path of the file in a variable
-					$targetPath = "uploads/".$_FILES['file']['name']; // Target path where file is to be stored
+					//$targetPath = "uploads/".$_FILES['file']['name']; // Target path where file is to be stored
+					$targetPath = "uploads/".$fileName;
 					move_uploaded_file($sourcePath,$targetPath) ; // Moving Uploaded file
-					echo "<span id='success'>Image Uploaded Successfully...!!</span><br/>";
-					echo "<br/><b>File Name:</b> " . $_FILES["file"]["name"] . "<br>";
-					echo "<b>Type:</b> " . $_FILES["file"]["type"] . "<br>";
-					echo "<b>Size:</b> " . ($_FILES["file"]["size"] / 1024) . " kB<br>";
-					echo "<b>Temp file:</b> " . $_FILES["file"]["tmp_name"] . "<br>";
+					//echo "<span id='success'>Image Uploaded Successfully...!!</span><br/>";
+					//echo "<br/><b>File Name:</b> " . $_FILES["file"]["name"] . "<br>";
+					//echo "<b>Type:</b> " . $_FILES["file"]["type"] . "<br>";
+					//echo "<b>Size:</b> " . ($_FILES["file"]["size"] / 1024) . " kB<br>";
+					//echo "<b>Temp file:</b> " . $_FILES["file"]["tmp_name"] . "<br>";
+					
+					//$fileName = $_FILES["file"]["name"];
+					$path = "uploads/".$fileName;
+					trim($path, " \t\n\r\0\x0B");
+					//echo "PATH NAME: ".$path;
+					//success, store to database
+					$db = new PDO("mysql:dbname=salina99;host=localhost", "salina99", "Oshdatabase11");
+					$stored = $db->query("INSERT INTO `WebAll_Images`(`FileName`, `PathName`, `Emotion`) 
+								VALUES ('$fileName', '$path', 'Angry')");
+					
 				}
 			}
 		}
@@ -38,4 +53,5 @@
 			echo "<span id='invalid'>***Invalid file Size or Type***<span>";
 		}
 	}
+	header("Location: Profile.php");
 ?>
