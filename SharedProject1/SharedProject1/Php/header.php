@@ -1,28 +1,7 @@
-﻿
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <title>Webdev Project</title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <script src="../JavaScript/jquery-3.1.1.min.js"></script>
-    <link rel="stylesheet" href="../Bootstrap/css/bootstrap.min.css">
-    <script src="../Bootstrap/js/bootstrap.min.js"></script>
-    <script src="ImageUpload.js" type="text/javascript"></script>
-    <!-- <link rel="stylesheet" type="text/css" href="Profile.css"> -->
-	<link rel="stylesheet" type="text/css" href="Profile2.css">
-	<link rel="stylesheet" type="text/css" href="../EmotionPagesHtml/Emotions.css"> 
-    <!---->
-	
-</head>
-<body>
-    <?php
-    main(); 
+<?php
+	include("../RegisterLogin/login_session.php"); 	
+?>
 
-    function main(){
-
-        include("../RegisterLogin/login_session.php"); 	
-    ?>
     <nav class="navbar navbar-default navbar-fixed-top">
         <div class="container">
             <div class="navbar-header">
@@ -52,45 +31,24 @@
                         }
                         else{
                     ?>
-                            <span><a class="signIn" href="../RegisterLogin/SignIn.php">Sign in</a></span>
+                            <span><a  class="signIn" href="../RegisterLogin/SignIn.php">Sign in</a></span>
                     <?php
                         }
                     ?>
                 </form>
 
                 <ul class="nav navbar-nav">
-                    <li><a href="../Profile/Profile.php">Profile</a></li>
+					<?php
+						if(isset($_SESSION["email"])){
+						?>
+							<li><a href="../Profile/Profile.php">Profile</a></li>
+						<?php
+						}
+					?>
+                    
                     <li><a href="../Shopping/Shopping.php">Shopping</a></li>
                     <li><a href="../About.php">About</a></li>
                 </ul>
             </div>
         </div>
     </nav>
-    
-
-    	<h1>Profile</h1>
-		<div>
-            <form id="uploadimage" action="upload.php" method="post" enctype="multipart/form-data">
-                <div id="selectImage">
-                    <label>Select Your Image</label><br />
-                    <input type="file" name="file" id="file" required />
-                    <input type="submit" value="Upload" id="uploadButton" class="submit" />
-                </div>
-            </form>
-        </div>
-	<div class="container-fluid" id="page">
-		<!-- HTML INSERT -->
-	</div>
-	
-	</div>
-	
-	<?php
-    }
-    ?>
-
-    <div>
-        <a href="http://validator.w3.org/check/referer">Validate Me</a>
-    </div>
-
-</body>
-</html>

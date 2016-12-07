@@ -1,10 +1,15 @@
-﻿
-body{
+﻿body{
     /*background-color: darkcyan;*/
     /*background: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet);*/
 	margin-top: 100px;
 	
 	background-color: #009999  ;
+}
+
+p{
+	font-weight: bold; 
+	padding-top: 50%;
+	font-size: large; 
 }
 
 #profilePicture{
@@ -60,7 +65,7 @@ body{
     transition-delay: 0s;
 }
 
-/*.widget{
+.widget{
     box-shadow: 0px 0px 2px 3px #404040;
 
 	 border: 1px solid transparent;
@@ -71,7 +76,7 @@ body{
 	background: -webkit-linear-gradient(to bottom left, #5900b3 , #00ffff); 
 	/*background: linear-gradient(to bottom left, #5900b3 , #00ffff); */
 		
-   /* background: radial-gradient(circle, #00ffff, #5900b3);
+    background: radial-gradient(circle, #00ffff, #5900b3);
 
      margin-left: 30px;
      margin-right: 30px; 
@@ -89,11 +94,11 @@ body{
     transition-delay: .1s; 	
 	 
 	 
-}*/
+}
 
-/*.widget:hover{
+.widget:hover{
     /*[horizontal offset] [vertical offset] [blur radius] [optional spread radius] [color];*/
-    /*box-shadow: 0px 0px 7px 10px #303030;
+    box-shadow: 0px 0px 7px 10px #303030;
 
      margin-left: 30px;
      margin-right: 30px; 
@@ -104,7 +109,7 @@ body{
     -moz-transition-delay: 0s;
     transition-delay: 0s;
     
-}*/
+}
 
 .center-block{
 	margin-left: auto;
@@ -186,7 +191,7 @@ body{
 
 
 
-.signIn
+.signOut
 {
 	color: #FFFFFF;
 	border: 1px solid transparent;
@@ -196,7 +201,7 @@ body{
 	margin-left: 40pt;
 }
 
-.signIn:hover
+.signOut:hover
 {
 	color: #000000;
 	background-color:#d4d6d8;
